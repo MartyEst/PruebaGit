@@ -15,12 +15,13 @@ namespace Pantalla
             {
              res = Menu.Menus(Cadenas,0,0);
                 if(!res.Equals("Salir"))
-                    switch (res)
+                    "                                       ".gotoXY(20, 20);
+                switch (res)
                     {
-                        case "Uno": $"Ustes eligio {res}".gotoXY(20,20); break;
-                        case "Dos": $"Ustes eligio {res}".gotoXY(20, 20); break;
-                        case "Tres": $"Ustes eligio {res}".gotoXY(20, 20); break;
-                        case "Cuatro": $"Ustes eligio {res}".gotoXY(20, 20); break;
+                        case "Uno": $"Usted eligio {res}".gotoXY(20,20); break;
+                        case "Dos": $"Usted eligio {res}".gotoXY(20, 20); break;
+                        case "Tres": $"Usted eligio {res}".gotoXY(20, 20); break;
+                        case "Cuatro": $"Usted eligio {res}".gotoXY(20, 20); break;
                         default:
                             break;
                     }
