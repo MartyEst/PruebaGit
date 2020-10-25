@@ -3,9 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{1CEDFCA5-092E-4E0B-9E13-5C744C892FF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1131A491-E97E-4481-820A-96DD8D4622FE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pantalla", "Src\Pantalla\Pantalla.csproj", "{2B0D1197-7D3A-4CCB-BF2E-8A45C26C040D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PantallaTest", "Tests\PantallaTest\PantallaTest.csproj", "{CB2828D0-3D4E-4AE9-8336-0F9FDF15BEDF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B0D1197-7D3A-4CCB-BF2E-8A45C26C040D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B0D1197-7D3A-4CCB-BF2E-8A45C26C040D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B0D1197-7D3A-4CCB-BF2E-8A45C26C040D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B0D1197-7D3A-4CCB-BF2E-8A45C26C040D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB2828D0-3D4E-4AE9-8336-0F9FDF15BEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB2828D0-3D4E-4AE9-8336-0F9FDF15BEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB2828D0-3D4E-4AE9-8336-0F9FDF15BEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB2828D0-3D4E-4AE9-8336-0F9FDF15BEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B0D1197-7D3A-4CCB-BF2E-8A45C26C040D} = {1CEDFCA5-092E-4E0B-9E13-5C744C892FF3}
+		{CB2828D0-3D4E-4AE9-8336-0F9FDF15BEDF} = {1131A491-E97E-4481-820A-96DD8D4622FE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C00CCFAE-5392-4D10-B345-D1FF221906B0}
